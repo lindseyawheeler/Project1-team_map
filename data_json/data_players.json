@@ -1,0 +1,187 @@
+[
+    {
+        "pk": 1,
+        "model": "team.Players",
+        "fields":{
+            "number": "0",
+            "name": "Joel James",
+            "position": "F",
+            "height": "6-10",
+            "weight": "260",
+            "year": "Fr.",
+            "hometown": "West Palm Beach, Fla.",
+            "school": "Dwyer"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "team.Players",
+        "fields":{
+            "number": "1",
+            "name": "Dexter Strickland",
+            "position": "G",
+            "height": "6-3",
+            "weight": "180",
+            "year": "Sr.",
+            "hometown": "Rahway, N.J.",
+            "school": "St. Patrick"
+        }    
+    },
+    {
+        "pk": 3,
+        "model": "team.Players",
+        "fields":{
+            "number": "2",
+            "name": "Leslie McDonald",
+            "position": "G",
+            "height": "6-5",
+            "weight": "215",
+            "year": "Jr.",
+            "hometown": "Memphis, Tenn.",
+            "school": "Briarcrest Christian School"
+        }    
+    },
+    {
+        "pk": 4,
+        "model": "team.Players",
+        "fields":{
+            "number": "3",
+            "name": "Wade Moody",
+            "position": "G",
+            "height": "6-0",
+            "weight": "175",
+            "year": "Jr.",
+            "hometown": "Mount Airy, N.C.",
+            "school": "Mount Airy"
+        }    
+    },
+    {
+        "pk": 5,
+        "model": "team.Players",
+        "fields":{
+            "number": "4",
+            "name": "Luke Davis",
+            "position": "G",
+            "height": "6-0",
+            "weight": "172",
+            "year": "So.",
+            "hometown": "Raleigh, N.C.",
+            "school": "Ravenscroft"
+        }    
+    },
+    {
+        "pk": 6,
+        "model": "team.Players",
+        "fields":{
+            "number": "5",
+            "name": "Marcus Paige",
+            "position": "G",
+            "height": "6-5",
+            "weight": "157",
+            "year": "Fr.",
+            "hometown": "Marion, Iowa",
+            "school": "Linn-Mar"
+        }    
+    },
+    {
+        "pk": 7,
+        "model": "team.Players",
+        "fields":{
+            "number": "11",
+            "name": "Brice Johnson",
+            "position": "F",
+            "height": "6-9",
+            "weight": "187",
+            "year": "Fr.",
+            "hometown": "Orangeburg, S.C.",
+            "school": "Edisto"
+        }    
+    },
+    {
+        "pk": 8,
+        "model": "team.Players",
+        "fields":{
+            "number": "14",
+            "name": "Desmund Hubert",
+            "position": "F",
+            "height": "6-9.5",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Cream Ridge, N.J.",
+            "school": "New Egypt"
+        }    
+    },
+    {
+        "pk": 9,
+        "model": "team.Players",
+        "fields":{
+            "number": "15",
+            "name": "P.J. Hairston",
+            "position": "G",
+            "height": "6-5.5",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Greensboro, S.C.",
+            "school": "Hargrave Military Academy"
+        }    
+    },
+    {
+        "pk": 10,
+        "model": "team.Players",
+        "fields":{
+            "number": "21",
+            "name": "Jackson Simmons",
+            "position": "F",
+            "height": "6-7",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Webster, N.C.",
+            "school": "Smoky Mountain"
+        }    
+    },
+    {
+        "pk": 11,
+        "model": "team.Players",
+        "fields":{
+            "number": "22",
+            "name": "Frank Tanner",
+            "position": "F",
+            "height": "6-4",
+            "weight": "210",
+            "year": "Sr.",
+            "hometown": "Charlotte, N.C.",
+            "school": "Hickory Ridge"
+        }    
+    },
+    {
+        "pk": 12,
+        "model": "team.Players",
+        "fields":{
+            "number": "25",
+            "name": "J.P. Tokoto",
+            "position": "F",
+            "height": "6-5",
+            "weight": "185",
+            "year": "Fr.",
+            "hometown": "Menomonee Falls, Wisc.",
+            "school": "Menomonee Falls"
+        }    
+    },
+    {
+        "pk": 13,
+        "model": "team.Players",
+        "fields":{
+            "number": "30",
+            "name": "James Manor",
+            "position": "f",
+            "height": "6-6",
+            "weight": "210",
+            "year": "Fr.",
+            "hometown": "Carrboro, N.C.",
+            "school": "Chapel Hill"
+        }    
+    },
+]
+
+
+
