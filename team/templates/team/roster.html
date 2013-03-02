@@ -1,0 +1,19 @@
+<!-- new file: roster/templates/roster/course.html -->
+
+{% extends "base.html" %}
+
+
+{% block content %}
+<h2>Roster: {{ roster.name }}</h2>
+<p>Details</p>
+<ul>
+    <li>{{ roster.number }}</li>
+    <li>{{ roster.name }}</li>
+    <li>{{ roster.position }}</li>
+    <li>{{ roster.height }}</li>
+    <li>{{ roster.weight }}</li>
+    <li>{{ roster.year }}</li>
+    <li>{{ roster.hometown }}</li>
+    <li>{{ roster.school }}</li>
+</ul>
+{% endblock %}

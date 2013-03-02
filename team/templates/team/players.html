@@ -1,0 +1,18 @@
+<!-- new file: roster/templates/roster/student.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Bio: {{ players.name }}</h2>
+<p>Details</p>
+<ul>
+    <li>{{ players.number }}</li>
+    <li>{{ players.name }}</li>
+    <li>{{ players.position }}</li>
+    <li>{{ players.height }}</li>
+    <li>{{ players.weight }}</li>
+    <li>{{ players.year }}</li>
+    <li>{{ players.hometown }}</li>
+    <li>{{ players.school }}</li>
+</ul>
+{% endblock %}

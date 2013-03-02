@@ -1,0 +1,15 @@
+
+<!--roster/templates/roster/home.html -->
+
+{% extends "base.html"%}
+{% load humanize %}
+{% load url from future %}
+
+{% block content %}
+<h1>The University of North Carolina Official Athletic Site</h1>
+<p>This new interactive development site has {{ players_count|intcomma }} players
+in {{ roster_count|intcomma }} rosters.</p>
+
+<p><a href="{% url 'team_roster_list' %}">List of Players</a></p>
+<p><a href="{% url 'team_players_list' %}">List of Players</a></p>
+{% endblock %}

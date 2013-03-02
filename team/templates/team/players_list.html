@@ -1,0 +1,35 @@
+<!-- new file: roster/templates/roster/student_list.html -->
+
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Bio</h2>
+    <ul>
+    {% for players in players %}
+    {# Each "player" is a player model object. #}
+    <li><a href="{{ players.number }}">{{ players.name }}</a> | {{ players.position }}</li>
+{% endfor %}
+</ul>
+
+<div class="pagination">
+    <span class="step-links">
+        {% if players.has_previous %}
+            <a href="?page={{ players.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ players.number }} of {{ players.paginator.num_pages }}.
+        </span>
+
+        {% if players.has_next %}
+            <a href="?page={{ players.next_page_number }}">next</a>
+        {% endif %}
+    </span>
+</div>
+    
+    
+    
+    
+    
+{% endblock %}
+
