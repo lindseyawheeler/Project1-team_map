@@ -1,15 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>The University of North Carolina at Chapel Hill</title>
+        <link href="static_media/css/app.css" rel="stylesheet">
+        <link href="static_media/css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+    
+    <body>
+<img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
+    alt="UNC logo" width="134" height="107" <img>
+<ul class ="navbar">
+    <li><a href ="roster.html">Sports</a></li>
+    <li><a href ="schedules.html">Schedules</a></li>
+    <li><a href ="inside.html">Inside Athletics</a></li>
+    <li><a href ="multimedia.html">Multimedia</a></li>
+    <li><a href ="fan.html">Fan Center</a></li>
+</ul>
 
-<!--roster/templates/roster/home.html -->
-
-{% extends "base.html"%}
-{% load humanize %}
-{% load url from future %}
-
-{% block content %}
 <h1>The University of North Carolina Official Athletic Site</h1>
 <p>This new interactive development site has {{ players_count|intcomma }} players
 in {{ roster_count|intcomma }} rosters.</p>
 
 <p><a href="{% url 'team_roster_list' %}">List of Players</a></p>
 <p><a href="{% url 'team_players_list' %}">List of Players</a></p>
-{% endblock %}
+    </body>
+</html>

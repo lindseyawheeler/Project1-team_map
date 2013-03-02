@@ -53,6 +53,6 @@ def playersList(request):
     return render(request, 'team/players_list.html', {"players": players})
     
     
-    #players = get_object_or_404(Player)
+    #players = get_object_or_404(Players)
     #return render(request, "team/players_list.html", {'players': players})
 
