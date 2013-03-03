@@ -1,8 +1,24 @@
-<!-- new file: roster/templates/roster/student.html -->
+<!DOCTYPE html>
+    
+<html lang="en">
+    <head>    
+        <title>The University of North Carolina at Chapel Hill</title>
+        <link href="static_media/css/app.css" rel="stylesheet">
+        <link href="static_media/css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
 
-{% extends "base.html" %}
 
-{% block content %}
+    <body>
+<img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
+    alt="UNC logo" width="134" height="107" <img>
+<ul class ="navbar">
+    <li><a href ="roster.html">Sports</a></li>
+    <li><a href ="schedules.html">Schedules</a></li>
+    <li><a href ="inside.html">Inside Athletics</a></li>
+    <li><a href ="multimedia.html">Multimedia</a></li>
+    <li><a href ="fan.html">Fan Center</a></li>
+</ul>
+
 <h2>Bio: {{ players.name }}</h2>
 <p>Details</p>
 <ul>
@@ -15,4 +31,5 @@
     <li>{{ players.hometown }}</li>
     <li>{{ players.school }}</li>
 </ul>
-{% endblock %}
+    </body>
+</html>

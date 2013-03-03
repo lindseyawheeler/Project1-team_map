@@ -1,13 +1,15 @@
+{% load humanize %}
+{% load url from future %}
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        <title>The University of North Carolina at Chapel Hill</title>
-        <link href="static_media/css/app.css" rel="stylesheet">
-        <link href="static_media/css/bootstrap-responsive.css" rel="stylesheet">
-    </head>
+<head>
+    <title>{% block title %}The University of North Carolina at Chapel Hill{% endblock %}</title>
+    <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet" type="text/css">
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
     
-    <body>
+<body>
 <img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
     alt="UNC logo" width="134" height="107" <img>
 <ul class ="navbar">
@@ -18,11 +20,53 @@
     <li><a href ="fan.html">Fan Center</a></li>
 </ul>
 
+<ul class ="men_nav">
+    <li><a href ="roster.html">Men's Basketball</a></li>
+    <li>Baseball</li>
+    <li>Cross Country</li>
+    <li>Fencing</li>
+    <li>Football</li>
+    <li>Golf</li>
+    <li>Lacrosse</li>
+    <li>Soccer</li>
+    <li>Swimming & Diving</li>
+    <li>Tennis</li>
+    <li>Wresting</li>
+</ul>
+
+<ul class="women_nav">
+    <li>Basketball</li>
+    <li>Cross Country</li>
+    <li>Fencing</li>
+    <li>Field Hockey</li>
+    <li>Golf</li>
+    <li>Gymnastics</li>
+    <li>Lacrosse</li>
+    <li>Rowing</li>
+    <li>Soccer</li>
+    <li>Softball</li>
+    <li>Swimming & Diving</li>
+    <li>Tennis</li>
+    <li>Track & Field</li>
+    <li>Volleyball</li>
+</ul>
+
 <h1>The University of North Carolina Official Athletic Site</h1>
 <p>This new interactive development site has {{ players_count|intcomma }} players
 in {{ roster_count|intcomma }} rosters.</p>
 
 <p><a href="{% url 'team_roster_list' %}">List of Players</a></p>
 <p><a href="{% url 'team_players_list' %}">List of Players</a></p>
-    </body>
+
+<img src = "http://upload.wikimedia.org/wikipedia/commons/a/a4/Duke_UNC_Basketball_Game_at_Chapel_Hill.jpg"
+     alt= "UNC baskteball court" height="300" width="500"</img>
+<.containter>
+    <h2>Latest News</h2>
+    <h3>Men's Lacrosse</h3>
+    <h3>Softball</h3>
+    <h3>Women's Basketball</h3>
+    <h3>Baseball</h3>
+</.containter>
+
+</body>
 </html>

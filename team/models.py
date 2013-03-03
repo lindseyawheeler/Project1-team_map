@@ -11,18 +11,14 @@ class Players(models.Model):
     hometown = models.CharField(unique=False, max_length=50)
     school = models.CharField(unique=False, max_length=50)
     major = models.CharField(unique=False, max_length=20)
-    bio = models.CharField(unique=False, max_length=500)
-    prep = models.CharField(unique=False, max_length=500)
-    personal = models.CharField(unique=False, max_length=500)
     #imageurl = models.ImageField(max_length =100)
     class Meta(object):
         ordering = ('number', 'name', 'position', 'height', 'weight', 'year',
-        'hometown', 'school', 'major', 'bio', 'prep', 'personal')
+        'hometown', 'school', 'major',)
     
     def __unicode__(self):
         return U'%s %s' %(self.number, self.name, self.position, self.height,
-        self.weight, self.year, self.hometown, self.school, self.major, self.bio,
-        self.prep, self.personal)
+        self.weight, self.year, self.hometown, self.school, self.major)
 
    
 class Roster(models.Model):
