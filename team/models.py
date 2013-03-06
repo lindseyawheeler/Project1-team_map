@@ -11,7 +11,7 @@ class Players(models.Model):
     hometown = models.CharField(unique=False, max_length=50)
     school = models.CharField(unique=False, max_length=50)
     major = models.CharField(unique=False, max_length=20)
-    imageurl = models.ImageField(max_length =100, upload_to='gallery')
+    img = models.CharField(max_length =100)
     
     class Meta(object):
         ordering = ('number', 'name', 'position', 'height', 'weight', 'year',

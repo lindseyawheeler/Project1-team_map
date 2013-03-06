@@ -8,3 +8,11 @@ h1 {
     font-size: 20px;
 }
 
+.bball {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.info {
+    align: right;
+}

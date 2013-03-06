@@ -1,4 +1,4 @@
-<!-- new file: roster/templates/roster/student_list.html -->
+
 
 {% extends "base.html" %}
 
@@ -7,7 +7,7 @@
     <ul>
     {% for players in players %}
     {# Each "player" is a player model object. #}
-    <li><a href="{{ players.number }}">{{ players.name }}</a> | {{ players.position }}</li>
+    <li><a href="{{ players.id }}">{{ players.name }}</a> | {{ players.position }}</li>
 {% endfor %}
 </ul>
 

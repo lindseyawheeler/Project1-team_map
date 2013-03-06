@@ -1,14 +1,8 @@
+{% extends "base.html" %}
+
 <!DOCTYPE html>
-    
 <html lang="en">
-    <head>    
-        <title>The University of North Carolina at Chapel Hill</title>
-        <link href="static_media/css/app.css" rel="stylesheet">
-        <link href="static_media/css/bootstrap-responsive.css" rel="stylesheet">
-    </head>
-
-
-    <body>
+    
 <img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
     alt="UNC logo" width="134" height="107" <img>
 <ul class ="navbar">
@@ -18,10 +12,13 @@
     <li><a href ="multimedia.html">Multimedia</a></li>
     <li><a href ="fan.html">Fan Center</a></li>
 </ul>
-
+{% block content %}
 <h2>Bio: {{ players.name }}</h2>
-<p>Details</p>
+
+<div class="bball">
 <ul>
+    <img src ="{{ players.img }}">
+<div class="info" alighn="right">
     <li>{{ players.number }}</li>
     <li>{{ players.name }}</li>
     <li>{{ players.position }}</li>
@@ -30,6 +27,9 @@
     <li>{{ players.year }}</li>
     <li>{{ players.hometown }}</li>
     <li>{{ players.school }}</li>
+</div>
 </ul>
-    </body>
+</div>
+
+{% endblock %}
 </html>
