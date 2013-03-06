@@ -1,0 +1,242 @@
+[
+    {
+        "pk": 1,
+        "model": "team.Players",
+        "fields":{
+            "number": "0",
+            "name": "Joel James",
+            "position": "F",
+            "height": "6-10",
+            "weight": "260",
+            "year": "Fr.",
+            "hometown": "West Palm Beach, Fla.",
+            "school": "Dwyer",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/OL/OLPTEGCLTOYLPKB.20120829180406.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "team.Players",
+        "fields":{
+            "number": "1",
+            "name": "Dexter Strickland",
+            "position": "G",
+            "height": "6-3",
+            "weight": "180",
+            "year": "Sr.",
+            "hometown": "Rahway, N.J.",
+            "school": "St. Patrick",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/QW/QWEMKTTTVFYZDRF.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 3,
+        "model": "team.Players",
+        "fields":{
+            "number": "2",
+            "name": "Leslie McDonald",
+            "position": "G",
+            "height": "6-5",
+            "weight": "215",
+            "year": "Jr.",
+            "hometown": "Memphis, Tenn.",
+            "school": "Briarcrest Christian School",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/SF/SFPHRVMNAPVRNOV.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 4,
+        "model": "team.Players",
+        "fields":{
+            "number": "3",
+            "name": "Wade Moody",
+            "position": "G",
+            "height": "6-0",
+            "weight": "175",
+            "year": "Jr.",
+            "hometown": "Mount Airy, N.C.",
+            "school": "Mount Airy",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/ZQ/ZQKLSWRJBJFXBGL.20121030160827.jpg"
+        }    
+    },
+    {
+        "pk": 5,
+        "model": "team.Players",
+        "fields":{
+            "number": "4",
+            "name": "Luke Davis",
+            "position": "G",
+            "height": "6-0",
+            "weight": "172",
+            "year": "So.",
+            "hometown": "Raleigh, N.C.",
+            "school": "Ravenscroft",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/HG/HGAPQXZWZIUPPAR.20120829180405.jpg"
+        }    
+    },
+    {
+        "pk": 6,
+        "model": "team.Players",
+        "fields":{
+            "number": "5",
+            "name": "Marcus Paige",
+            "position": "G",
+            "height": "6-5",
+            "weight": "157",
+            "year": "Fr.",
+            "hometown": "Marion, Iowa",
+            "school": "Linn-Mar",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/UN/UNRNDTAWVSSJBXG.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 7,
+        "model": "team.Players",
+        "fields":{
+            "number": "11",
+            "name": "Brice Johnson",
+            "position": "F",
+            "height": "6-9",
+            "weight": "187",
+            "year": "Fr.",
+            "hometown": "Orangeburg, S.C.",
+            "school": "Edisto",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/BZ/BZJVKCYIJSWFEHC.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 8,
+        "model": "team.Players",
+        "fields":{
+            "number": "14",
+            "name": "Desmund Hubert",
+            "position": "F",
+            "height": "6-9.5",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Cream Ridge, N.J.",
+            "school": "New Egypt",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/XM/XMDFRPSKACTQOKE.20120829180405.jpg"
+        }    
+    },
+    {
+        "pk": 9,
+        "model": "team.Players",
+        "fields":{
+            "number": "15",
+            "name": "P.J. Hairston",
+            "position": "G",
+            "height": "6-5.5",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Greensboro, S.C.",
+            "school": "Hargrave Military Academy",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/RM/RMMSLCKRRQGODUZ.20120829180405.jpg"
+        }    
+    },
+    {
+        "pk": 10,
+        "model": "team.Players",
+        "fields":{
+            "number": "21",
+            "name": "Jackson Simmons",
+            "position": "F",
+            "height": "6-7",
+            "weight": "220",
+            "year": "So.",
+            "hometown": "Webster, N.C.",
+            "school": "Smoky Mountain",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/ZJ/ZJVDJDHRWAAAWCT.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 11,
+        "model": "team.Players",
+        "fields":{
+            "number": "22",
+            "name": "Frank Tanner",
+            "position": "F",
+            "height": "6-4",
+            "weight": "210",
+            "year": "Sr.",
+            "hometown": "Charlotte, N.C.",
+            "school": "Hickory Ridge",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/HY/HYQGQZXWGNSKBBI.20121030160827.jpg"
+        }    
+    },
+    {
+        "pk": 12,
+        "model": "team.Players",
+        "fields":{
+            "number": "25",
+            "name": "J.P. Tokoto",
+            "position": "F",
+            "height": "6-5",
+            "weight": "185",
+            "year": "Fr.",
+            "hometown": "Menomonee Falls, Wisc.",
+            "school": "Menomonee Falls",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/WO/WOUYKMLWAZVLUGG.20120829180406.jpg"
+        }    
+    },
+    {
+        "pk": 13,
+        "model": "team.Players",
+        "fields":{
+            "number": "30",
+            "name": "James Manor",
+            "position": "F",
+            "height": "6-6",
+            "weight": "210",
+            "year": "Fr.",
+            "hometown": "Carrboro, N.C.",
+            "school": "Chapel Hill",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/ES/ESUDLCOGIZHPAPH.20121030160827.jpg"
+        }    
+    },
+     {
+        "pk": 14,
+        "model": "team.Players",
+        "fields":{
+            "number": "34",
+            "name": "Denzel Robinson",
+            "position": "F",
+            "height": "6-4",
+            "weight": "215",
+            "year": "Jr.",
+            "hometown": "Chapel Hill, N.C.",
+            "school": "Chapel Hill",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/EG/EGIVRIMMHQNYZUC.20121030160827.jpg"
+        }    
+    },
+     {
+        "pk": 15,
+        "model": "team.Players",
+        "fields":{
+            "number": "35",
+            "name": "Reggie Bullock",
+            "position": "G",
+            "height": "6-7",
+            "weight": "206",
+            "year": "Jr.",
+            "hometown": "Kinston, N.C.",
+            "school": "Kinston",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/WN/WNGAFGRVTXTXAMH.20120829180405.jpg"
+        }    
+    },
+     {
+        "pk": 16,
+        "model": "team.Players",
+        "fields":{
+            "number": "43",
+            "name": "James Michael McAdoo",
+            "position": "F",
+            "height": "6-9",
+            "weight": "230",
+            "year": "So.",
+            "hometown": "Norfolk, Va.",
+            "school": "Norfolk Christian",
+            "img": "http://image.cdnllnwnl.xosnetwork.com/pics32/400/ID/IDEJCORHUUOOGID.20120829180406.jpg"
+        }    
+    }
+]

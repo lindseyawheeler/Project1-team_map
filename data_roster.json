@@ -1,0 +1,16 @@
+[
+    {
+        "pk": 1,
+        "model": "team.Roster",
+        "fields":{
+            "name": "Men's Basketball",
+            "coach": "Roy Williams",
+            "wins": "21",
+            "losses": "8",
+            "home_wins": "14",
+            "home_losses": "1",
+            "away_wins": "5",
+            "away_losses": "6"
+        }
+    }
+]

@@ -1,39 +1,62 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        
-        <title>The University of North Carolina at Chapel Hill</title>
-        <link href="static_media/css/app.css" rel="stylesheet">
-        <link href="static_media/css/bootstrap-responsive.css" rel="stylesheet">
-    </head>
+<head>
+    <title>{% block title %}The University of North Carolina at Chapel Hill{% endblock %}</title>
+    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet" type="text/css">
+</head>    
+<div class=background>
+    
+    <div class="navbar">
+    <div class="navbar-inner">
+    <div class="container">
+     
+    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </a>
+     
+    <!-- Be sure to leave the brand out there if you want it shown -->
+    <a class="brand" href ="roster.html">Sports</a>
+    <a class="brand">Schedules</a>
+    <a class="brand">Inside Athletics</a>
+    <a class="brand">Multimedia</a>
+    <a class="brand">Fan Center</a>
+    <!-- Everything you want hidden at 940px or less, place within here -->
+    <div class="nav-collapse collapse">
+    <!-- .nav, .navbar-search, .navbar-form, etc -->
+    <a class="brand">Sport</a>
+    <li>Basketball</li>
+    </div>
+     
+    </div>
+    </div>
+    </div>
+    
 
 
-    <body>
-<img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
-    alt="UNC logo" width="134" height="107" <img>
-<ul class ="navbar">
-    <li><a href ="roster.html">Sports</a></li>
-    <li><a href ="schedules.html">Schedules</a></li>
-    <li><a href ="inside.html">Inside Athletics</a></li>
-    <li><a href ="multimedia.html">Multimedia</a></li>
-    <li><a href ="fan.html">Fan Center</a></li>
-</ul>
 
+<body>
+<h2>Men's Basketball: 2012-2013 Roster</h2>
 
-<h2>Men's Basketball: 2012-2013 Roster: {{ roster.name }}</h2>
-<.box>
 <p>Details</p>
 <ul>
-    <li>{{ roster.number }}</li>
     <li>{{ roster.name }}</li>
-    <li>{{ roster.position }}</li>
-    <li>{{ roster.height }}</li>
-    <li>{{ roster.weight }}</li>
-    <li>{{ roster.year }}</li>
-    <li>{{ roster.hometown }}</li>
-    <li>{{ roster.school }}</li>
+    <li>{{ roster.coach }}</li>
+    <li>{{ roster.wins }}</li>
+    <li>{{ roster.losses }}</li>
+    <li>{{ roster.home_wins }}</li>
+    <li>{{ roster.home_losses }}</li>
+    <li>{{ roster.away_wins }}</li>
+    <li>{{ roster.away_losses }}</li>
 </ul>
-</.box>
+
     </body>
 </html>
+
