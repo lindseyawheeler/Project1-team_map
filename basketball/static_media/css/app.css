@@ -16,3 +16,18 @@ h1 {
 .info {
     align: right;
 }
+
+table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #b0c4de;
+}
+
+td, th {
+    padding: 3px;
+    border: 1px solid #ffffff;
+    text-align:left;
+}

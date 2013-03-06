@@ -1,23 +1,38 @@
 <!-- team/templates/team/roster_list.html -->
 {% extends "base.html" %}
-
 {% block content %}
+    
     <h2>Men's Basketball 2012-2013 Season</h2>
     <ul>
-    {% for roster in rosters %}
+    {% for i in rosters %}
+    {# Each "roster" is a team model object. #}
+    <li><a href="{{ i.id }}">{{ i.name }}</a>{{ i.coach}}
+    {{ i.wins }} {{ i.losses }}
+    </li>
+    
+    <ul>
+    {% for players in players %}
     {# Each "player" is a player model object. #}
-    <li><a href="{{ roster.id }}">{{ roster.number }}</a> | {{ course.name}}</li>
+    <li><a href="{{ players.id }}">{{ players.name }}</a> | {{ players.position }}</li>
+    </ul>
+    
+    
+    
 {% endfor %}
-</ul>
+
+ 
+
+    
+
 
 <div class="pagination">
     <span class="step-links">
-        {% if players.has_previous %}
-            <a href="?page={{ rosters.previous_page_number }}">previous</a>
+        {% if roster.has_previous %}
+            <a href="?page={{ roster.previous_page_number }}">previous</a>
         {% endif %}
 
         <span class="current">
-            Page {{ rosters.number }} of {{ rosters.paginator.num_pages }}.
+            Page {{ roster.number }} of {{ rosters.paginator.num_pages }}.
         </span>
 
         {% if players.has_next %}

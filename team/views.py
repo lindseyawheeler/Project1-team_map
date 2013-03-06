@@ -18,18 +18,8 @@ def roster(request, pk):
 
 def rosterList(request):
     roster_list = Roster.objects.all()
-    paginator = Paginator(roster_list, 25)
-    page = request.GET.get('page')
-    try:
-        rosters= paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer, deliver first page.
-        rosters = paginator.page(1)
-    except EmptyPage:
-        # If page is out of range (e.g. 9999), deliver last page of results.
-        rosters = paginator.page(paginator.num_pages)
-
-    return render(request, 'team/roster_list.html', {"rosters": rosters})
+    
+    return render(request, 'team/roster_list.html', {"rosters": roster_list})
 
 def players(request, pk):
     #players = Players.objects.order_by('?')[0]

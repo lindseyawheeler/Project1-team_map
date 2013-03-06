@@ -40,14 +40,8 @@ class Roster(models.Model):
                     'home_losses', 'away_wins', 'away_losses' )
     
     def __unicode__(self):
-        return U'%s | %s' %(self.name, self.coach, self.wins, self.losses, self.home_wins,
-        self.home_losses, self.away_wins, self.away_losses)
-    
-    def save(self, *args, **kwargs):
-        self.name = self.name.upper()
-        super(Roster, self).save(*args, **kwargs)
-    
-    
+        return U'%s | %s' %(self.name, self.coach)
+   
   
 
     

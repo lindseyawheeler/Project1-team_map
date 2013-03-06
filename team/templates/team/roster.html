@@ -1,42 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
 
-{% extend "base.html" %}
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>{% block title %}The University of North Carolina at Chapel Hill{% endblock %}</title>
-    <link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet" type="text/css">
-</head>    
-<div class=background>
-    
-    <div class="navbar">
-    <div class="navbar-inner">
-    <div class="container">
-     
-    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    </a>
-     
-    <!-- Be sure to leave the brand out there if you want it shown -->
-    <a class="brand" href ="roster.html">Sports</a>
-    <a class="brand">Schedules</a>
-    <a class="brand">Inside Athletics</a>
-    <a class="brand">Multimedia</a>
-    <a class="brand">Fan Center</a>
-    <!-- Everything you want hidden at 940px or less, place within here -->
-    <div class="nav-collapse collapse">
-    <!-- .nav, .navbar-search, .navbar-form, etc -->
-    <a class="brand">Sport</a>
-    <li>Basketball</li>
-    </div>
-     
-    </div>
-    </div>
-    </div>
     
 <body>
 <h2>Men's Basketball: 2012-2013 Roster</h2>
@@ -53,6 +17,8 @@
     <li>{{ roster.away_losses }}</li>
 </ul>
 
+{{ players.name }}
     </body>
 </html>
 
+{% endblock %}
