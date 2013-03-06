@@ -1,5 +1,5 @@
 body{
-    background-color: #b0c4de;
+    background-color: #000033;
     margin:0;
     padding: 50px;
   }
@@ -8,13 +8,38 @@ h1 {
     font-size: 20px;
 }
 
-.bball {
-    background-color: #FFFFFF;
-    padding: 10px;
+h2 {
+    padding-left:10px;
 }
 
+.bball {
+    background-image: url('http://bookmarkcreations.com/mm5/Memorial-Card-Backgrounds/Memorial-Card-Gradient-Background-white-to-blue.jpg');
+    padding: 10px;
+    border-color: #A8A8A8;
+    border: ridge;
+    border-width:5px; 
+}
+
+.back {
+    background: #b0c4de;
+    border-color: #A8A8A8;
+    border: ridge;
+    border-width: 5px;
+    margin:0px;
+    padding-left: 50px;
+    width: 100%;
+    
+}
+
+.logo {
+    float:left;
+}
+
+
+
 .info {
-    align: right;
+    padding: 30px;
+    margin-left: 50px;
 }
 
 table {
@@ -31,3 +56,15 @@ td, th {
     border: 1px solid #ffffff;
     text-align:left;
 }
+
+img.floatLeft {
+    float:left;
+    margin: 15px;
+    padding: 10px;
+    border-color: #000000;
+    border: solid;
+    border-width:3px;
+    border-margin:0px;
+}
+
+

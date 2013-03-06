@@ -10,8 +10,7 @@
 
 
 <body>
-<img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
-    alt="UNC logo" width="134" height="107" padding="10px"<img>
+<div class="back">
 
 <h1>The University of North Carolina Official Athletic Site</h1>
 <p>This new interactive development site has {{ players_count|intcomma }} players
@@ -34,7 +33,7 @@ in {{ roster_count|intcomma }} rosters.</p>
     <!-- Carousel items -->
     <div class="carousel-inner">
     <div class="active item">
-        <img src="http://www.goheels.com/pics33/640/ZT/ZTYJPIQZRNINGYJ.20130303220258.jpg"></img>
+        <img src="http://www.goheels.com/pics33/640/ZT/ZTYJPIQZRNINGYJ.20130303220258.jpg" width=700 height=300 padding=10px></img>
     </div>
     <div class="item">
         <img src="http://www.goheels.com/pics33/640/ZT/ZTYJPIQZRNINGYJ.20130303220258.jpg"></img>    
@@ -51,16 +50,16 @@ in {{ roster_count|intcomma }} rosters.</p>
 </div>
 </div>
 <div>
-<ul class ="container">
+<div class ="container1">
     <h2>Latest News</h2>
-    <h3>Men's Lacrosse</h3>
-    <h3>Softball</h3>
-    <h3>Women's Basketball</h3>
-    <h3>Baseball</h3>
-</ul>
+    <li>Men's Lacrosse</li>
+    <li>Softball</li>
+    <li>Women's Basketball</li>
+    <li>Baseball</li>
+</div>
 </div>
 
 </body>
 </div>
-
+</div>
 {% endblock %}
