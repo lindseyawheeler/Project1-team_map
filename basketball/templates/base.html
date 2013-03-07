@@ -1,6 +1,7 @@
 <!--project template: /templates/base.html -->
 
-<!DOCTYPE html>   
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>{% block title %}The University of North Carolina Official Athletic Site{% endblock %}</title>
@@ -8,8 +9,8 @@
     <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet">
 </head>
 
-<!DOCTYPE html>
-<html lang="en">
+<body>
+
    
  
     <div class ="logo">
@@ -104,7 +105,7 @@
     
     
    
-<body>
+
     <div class="container">
         {% block content %}{% endblock %}
     </div>

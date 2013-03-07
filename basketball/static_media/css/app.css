@@ -1,6 +1,6 @@
 body{
     background-color: #000033;
-    margin:10px;
+    margin:0px;
     padding: 10px;
   }
 
@@ -14,10 +14,48 @@ h2 {
     font-family: Times New Roman, serif;
 }
 
+
 h5 {
     font-style:bold;
     font-size: 14px;
 }
+
+.carousel {
+    background-image: url("http://www.goheels.com/fls/3350/sport_bg/12965.jpg");
+    background-size: 981px 361px;
+    width: 971px;
+    height: 361px;
+    padding-left:10px;
+    margin-left:-50px;
+    margin-right: 10px;
+    text-align: left;
+    list-style:none;
+    color:#ffffff;
+    border: solid;
+    border-width:5px;
+}
+
+h3 {
+    color: #b0c4de;
+    font-size: 26px;
+    font-family: times New Roman, Georgia, serif;
+}
+
+
+.headlines {
+    height: 200px;
+    width: 200px;
+    list-style-type:none;
+    padding: 20px;
+    marging: 10px;
+    margin-bottom: 20px;
+    color:#000000;
+    font-style: bold;
+    background: #ffffff;
+    opacity:0.4;
+}
+
+
 
 .bball {
     padding: 10px;
@@ -143,7 +181,7 @@ img.floatLeft {
     li-border-bottom-style: solid;
     li-border-bottom-width: 1px;
     background-color: #FFFFFF;
-    backgroud-opacity:0.4;
+    opacity:0.85;
     height: 402px;
     width: 585px;
     float: right;
