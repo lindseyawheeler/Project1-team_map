@@ -1,7 +1,7 @@
 body{
     background-color: #000033;
-    margin:0;
-    padding: 50px;
+    margin:10px;
+    padding: 10px;
   }
 
 h1 {
@@ -9,16 +9,26 @@ h1 {
 }
 
 h2 {
-    padding-left:10px;
+    color:#000000;
+    padding-left: 5px;
+    font-family: Times New Roman, serif;
+}
+
+h5 {
+    font-style:bold;
+    font-size: 14px;
 }
 
 .bball {
-    background-image: url('http://bookmarkcreations.com/mm5/Memorial-Card-Backgrounds/Memorial-Card-Gradient-Background-white-to-blue.jpg');
     padding: 10px;
     border-color: #A8A8A8;
     border: ridge;
-    border-width:5px; 
+    border-width:5px;
+    height: 550px;
+    width: 900px;
+    background-image: url("http://sportsfeedia.com/wp-content/uploads/unc-basketball.jpg");
 }
+
 
 .back {
     background: #b0c4de;
@@ -35,36 +45,106 @@ h2 {
     float:left;
 }
 
+#navbar {
+    margin: 0;
+    padding: 0;
+    height: 1em;
+}
 
+#navbar li {
+    list-style:none;
+    float:left;
+}
 
-.info {
-    padding: 30px;
-    margin-left: 50px;
+#navbar li a {
+    display: block;
+    
+}
+
+.floatPic{
+    float:left;
+    margin: 15px;
+    border-color: #000000;
+    border: solid;
+    border-width:3px;
+    border-margin:0px;
+}
+
+.floatText {
+    margin-top: 10px;
+    margin-left: 30px;
+    padding-left:20px;
+    list-style: none;
+    li-border-bottom-style: solid;
+    li-border-bottom-width: 1px;
+    background-color:#C0C0C0;
 }
 
 table {
     width:100%;
     border-collapse: collapse;
+    background-image: tar_heel.jpg;
+}
+
+
+td {
+    padding: 3px;
+    border: 1px solid #ffffff;
+    text-align:left;
+    color: #ffffff;
+    font-weight:bold;
 }
 
 th {
     background: #b0c4de;
-}
-
-td, th {
+    color: #000033;
     padding: 3px;
     border: 1px solid #ffffff;
     text-align:left;
 }
 
+a:link {
+    color: #333333;
+}
+
+a:visited {
+    color:#999999;
+}
+
+a:hover {
+    color:#666666;
+}
+
+a:active {
+    color:#333333;
+}
+
 img.floatLeft {
     float:left;
-    margin: 15px;
-    padding: 10px;
-    border-color: #000000;
+    margin: 5px;
+    border-color: #000033;
     border: solid;
     border-width:3px;
     border-margin:0px;
+}
+
+.floatRight {
+    margin-top:5px;
+    margin-right:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    li-border-bottom-style: solid;
+    li-border-bottom-width: 1px;
+    background-color: #FFFFFF;
+    backgroud-opacity:0.4;
+    height: 402px;
+    width: 585px;
+    float: right;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000033;
+    color:#000000;
 }
 
 

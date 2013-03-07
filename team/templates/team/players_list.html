@@ -3,12 +3,23 @@
 {% extends "base.html" %}
 
 {% block content %}
+   <div class="top_content">
+ <img src="http://a.espncdn.com/media/motion/2013/0303/com_130303_NCB_vblog_medcalf_hairston_130303/com_130303_NCB_vblog_medcalf_hairston_130303.jpg">   
+   <ul>
+    <li>{{ roster.name }}</li>
+    <li>{{ roster.coach }}</li>
+    
+   </ul>
+    
+
+    
+   </div>
     <h2>Team Roster</h2>
     
     {% for players in players %}
     {# Each "player" is a player model object. #}
    
-    <table class="table">
+  <table class="table">
         <thead>
     <tr>
         <th>Number</th>
@@ -32,7 +43,9 @@
     </tr>
     </tbody>
     </table>
-    
+  
+  
+  
 
 {% endfor %}
 

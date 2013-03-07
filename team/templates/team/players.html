@@ -12,25 +12,25 @@
 </ul>
 {% block content %}
 <div class="bball">
-<h2>Bio: #{{ players.number }}&nbsp;&nbsp;{{ players.name }}</h2>
+<h2 style="margin-bottom: 10px;">#{{ players.number }}&nbsp;&nbsp;{{ players.name }}</h2>
 
- <img src ="{{ players.img }}" class="floatLeft">
-     
+ <img src ="{{ players.img }}" class="floatLeft" width="266" height="400" padding-right="10">
+   
 
 <ul>
-<div class="info">
-    <h3>#{{ players.number }}&nbsp;&nbsp;{{ players.name }}</h3>
-    <li>Position:&nbsp;&nbsp;{{ players.position }}</li>
-    <li>Height:&nbsp;&nbsp;{{ players.height }}</li>
-    <li>Weight:&nbsp;&nbsp;{{ players.weight }}</li>
-    <li>Year:&nbsp;&nbsp;{{ players.year }}</li>
-    <li>Hometown:&nbsp;&nbsp;{{ players.hometown }}</li>
-    <li>High School:&nbsp;&nbsp;{{ players.school }}</li>
-    Bio:&nbsp;&nbsp;{{ players.bio }}
+<div class="floatRight">
+    <li style="margin-bottom:3px;"><h5>Position:&nbsp;&nbsp;{{ players.position }}</h5></li>
+    <li style="margin-bottom:3px"><h5>Height:&nbsp;&nbsp;{{ players.height }}</h5></li>
+    <li style="margin-bottom:3px;"><h5>Weight:&nbsp;&nbsp;{{ players.weight }}</h5></li>
+    <li style="margin-bottom:3px;"><h5>Year:&nbsp;&nbsp;{{ players.year }}</h5></li>
+    <li style="margin-bottom:3px;"><h5>Hometown:&nbsp;&nbsp;{{ players.hometown }}</h5></li>
+    <li style="margin-bottom:3px;"><h5>High School:&nbsp;&nbsp;{{ players.school }}</h5></li>
+    <li style="margin-bottom:3px;">Bio:&nbsp;&nbsp;{{ players.bio }}</li>
 </ul>
 </div>
 </div>
 </div>
+
 
 
 
