@@ -5,21 +5,13 @@
 {% block content %}
    <div class="top_content">
  <img src="http://a.espncdn.com/media/motion/2013/0303/com_130303_NCB_vblog_medcalf_hairston_130303/com_130303_NCB_vblog_medcalf_hairston_130303.jpg">   
-   <ul>
-    <li>{{ roster.name }}</li>
-    <li>{{ roster.coach }}</li>
-    
-   </ul>
-    
-
-    
-   </div>
-    <h2>Team Roster</h2>
-    
-    {% for players in players %}
-    {# Each "player" is a player model object. #}
+  
    
-  <table class="table">
+    
+ <div class="row-fluid">
+    <div class="span12">
+    <h3>Men's Basketball Roster</h3>
+ <table class="table">
         <thead>
     <tr>
         <th>Number</th>
@@ -30,8 +22,9 @@
         <th>Hometown</th>
         <th>High School</th>
     </tr>
-        </thead>
-    <tbody>    
+    </thead>
+    {% for players in players %}
+    {# Each "players" is a player model object. #}   
     <tr>
     <td>{{ players.number }}</td>
     <td><a href="{{ players.id }}">{{ players.name }}</a></td>
@@ -41,13 +34,8 @@
     <td>{{ players.hometown }}</td>
     <td>{{ players.school }}</td>
     </tr>
-    </tbody>
-    </table>
-  
-  
-  
-
 {% endfor %}
+ </table>
 
 
 <div class="pagination">

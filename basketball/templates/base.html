@@ -9,112 +9,76 @@
     <link href="{{ STATIC_URL }}css/app.css" rel="stylesheet">
 </head>
 
-<body>
 
-   
  
     <div class ="logo">
-        <img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif"
-    alt="UNC logo" width="134" height="107" padding="10px" align="left"<img>
+      <a href="home"><img src= "http://www.unc.edu/~bidwej/images/unc%20ram%20logo.gif" style="float:left";
+     alt="UNC logo" width="184" height="167" padding="10px"<img></a>
      </div>
  
  
     <div class="navbar">
     <div class="navbar-inner">
-    <div class="container">
-     
-    <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    </a>
-     
-     
-     
-    <!-- Be sure to leave the brand out there if you want it shown -->
-     
      
      <div class="dropdown">
      <ul class="nav nav-tabs">
   <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-        Men's Sports
-        <b class="caret"></b>
-      </a>
+    <a class="dropdown-toggle" style="float:left;" data-toggle="dropdown" href="#"><font color="black">
+     Sports &nbsp;&nbsp;&nbsp&nbsp; |</a></font>
     <ul class="dropdown-menu">
+    <li class="dleft" style="float:left;"></li>
+     <li class="nav-header">Men's Sports</li>
      <li><a href="#">Baseball<a></li>
-     <li><a href="#">Basketball<a></li>
-     <li><a href="#">Cross Country<a></li>
-     <li><a href="#">Fencing<a></li>
-     <li><a href="#">Football<a></li>
-     <li><a href="#">Golf<a></li>
-     <li><a href="#">Lacrosse<a></li>
-     <li><a href="#">Soccer<a></li>
-     <li><a href="#">Swimming & Diving<a></li>
-     <li><a href="#">Tennis<a></li>
-     <li><a href="#">Track & Field<a></li>
-     <li><a href="#">Wrestling<a></li>
-      <!-- links -->
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-        Women's Sports
-        <b class="caret"></b>
-      </a>
-    <ul class="dropdown-menu">
-      <li><a href="#">Basketball<a></li>
-      <li><a href="#">Cross Country<a></li>
-      <li><a href="#">Fencing<a></li>
-      <li><a href="#">Field Hockey<a></li>
-      <li><a href="#">Golf<a></li>
-      <li><a href="#">Gymnastics<a></li>
-      <li><a href="#">Lacross<a></li>
-      <li><a href="#">Rowing<a></li>
-      <li><a href="#">Soccer<a></li>
-      <li><a href="#">Softball<a></li>
-      <li><a href="#">Swimming & Diving<a></li>
-      <li><a href="#">Tennis<a></li>
-      <li><a href="#">Track & Field<a></li>
+    <li class="active"><a href="players">Basketball<a></li>
+     <li><a href="#">Cross Country</a></li>
+     <li><a href="#">Fencing</a></li>
+     <li><a href="#">Football</a></li>
+     <li><a href="#">Golf</a></li>
+     <li><a href="#">Lacrosse</a></li>
+     <li><a href="#">Soccer</a></li>
+     <li><a href="#">Swimming & Diving</a></li>
+     <li><a href="#">Tennis</a></li>
+     <li><a href="#">Track & Field</a></li>
+     <li><a href="#">Wrestling</a></li>
+      <li class="divider" style="float:right;"></li>
+    <li class="nav-header">Women's Sports</li>  
+      <li><a href="#">Basketball</a></li>
+      <li><a href="#">Cross Country</a></li>
+      <li><a href="#">Fencing</a></li>
+      <li><a href="#">Field Hockey</a></li>
+      <li><a href="#">Golf</a></li>
+      <li><a href="#">Gymnastics</a></li>
+      <li><a href="#">Lacross</a></li>
+      <li><a href="#">Rowing</a></li>
+      <li><a href="#">Soccer</a></li>
+      <li><a href="#">Softball</a></li>
+      <li><a href="#">Swimming & Diving</a></li>
+      <li><a href="#">Tennis</a></li>
+      <li><a href="#">Track & Field</a></li>
       <li><a href="#">Volleyball<a></li>
+      </li>
+    </li>
     </ul>
   </li>
 </ul>
+    <a class="brand" href="#"><font color="black">Schedules &nbsp;&nbsp  |</a></font>
+    <a class="brand" href="#"><font color="black">Inside Athletics &nbsp;&nbsp  |</a></font>
+    <a class="brand" href="#"><font color="black">Multimedia &nbsp;&nbsp |</a></font>
+    <a class="brand" href="#"><font color="black">Fan Center &nbsp;&nbsp |</a></font>
+    <a class="brand" href="#"><font color="black">Store &nbsp;&nbsp |</a></font>
+    <a class="brand" href="#"><font color="black">Rams Club</a></font>
     
-    <a class="brand">Schedules</a>
-    <a class="brand">Inside Athletics</a>
-    <a class="brand">Multimedia</a>
-    <a class="brand">Fan Center</a>
-    <!-- Everything you want hidden at 940px or less, place within here -->
-    <div class="nav-collapse collapse">
-    <!-- .nav, .navbar-search, .navbar-form, etc -->
-    </div>
- 
     
     </div>
      
     </div>
     </div>
-    </div>
     
-   
-  
-   
-
-    
-    
-   
-
     <div class="container">
         {% block content %}{% endblock %}
     </div>
-
-    
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
 
-
-</body>
 </html>
