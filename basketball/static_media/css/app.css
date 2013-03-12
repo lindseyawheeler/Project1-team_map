@@ -65,6 +65,8 @@ h3 {
     height: 550px;
     width: 900px;
     background-image: url("http://sportsfeedia.com/wp-content/uploads/unc-basketball.jpg");
+    margin-top:50px;
+    margin-left:60px;
 }
 
 
@@ -238,4 +240,37 @@ img.floatLeft {
     color:#000000;
 }
 
+.teamphoto {
+    float: left;
+    width:500px;
+    height:350px;
+    margin-top:20px;
+}
+
+
+.top_content {
+    float:right;
+    background-image:url("http://2.bp.blogspot.com/_RVLfSMIB7K0/SdV-2K6eeaI/AAAAAAAAT9I/vt2pqerJ8XM/s400/001ramses.jpg");
+    width: 385px;
+    height:267px;
+    margin-top:20px;
+    margin-right:0px;
+    color:#ffffff;
+    text-align: right;
+    list-style-type: none;
+    padding-right:15px;
+}
+
+ul.stats {
+    list-style: none;
+    margin-top:3px;
+    display: inline-block;
+}
+
+.rosterbg {
+    margin-top:50px;
+    background-image:url("http://uncw.edu/transitions/orientation/images/frontpage.jpg");
+    width:1000px;
+    background-repeat: no-repeat;
+}
 
