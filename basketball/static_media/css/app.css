@@ -20,6 +20,11 @@ h5 {
     font-size: 14px;
 }
 
+h6 {
+    color:#ffffff;
+    font-size:16px;
+}
+
 .carousel {
     background-image: url("http://www.goheels.com/fls/3350/sport_bg/12965.jpg");
     background-size: 981px 361px;
@@ -33,6 +38,8 @@ h5 {
     color:#ffffff;
     border: solid;
     border-width:5px;
+    padding-right:10px;
+    padding-top:-15px;
 }
 
 h3 {
@@ -243,10 +250,11 @@ img.floatLeft {
 .teamphoto {
     float: left;
     width:500px;
-    height:350px;
-    margin-top:20px;
+    height:500px;
+    margin-top:-30px;
+    padding-right: 3px;
+    display: inline-block; 
 }
-
 
 .top_content {
     float:right;
