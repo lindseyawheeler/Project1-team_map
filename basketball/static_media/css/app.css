@@ -19,6 +19,7 @@ h3 {
     color: #b0c4de;
     font-size: 26px;
     font-family: Times New Roman, Georgia, serif;
+    margin-left: 20px;
 }
 
 h4 {
@@ -37,6 +38,7 @@ h5 {
 h6 {
     color:#ffffff;
     font-size:16px;
+    margin-bottom:-10px;
 }
 
 .carousel {
@@ -271,8 +273,8 @@ img.floatLeft {
     background-image:url("http://2.bp.blogspot.com/_RVLfSMIB7K0/SdV-2K6eeaI/AAAAAAAAT9I/vt2pqerJ8XM/s400/001ramses.jpg");
     width: 385px;
     height:267px;
-    margin-top:-10px;
-    margin-right:0px;
+    margin-top:5px;
+    margin-right:20px;
     color:#ffffff;
     text-align: right;
     list-style-type: none;
@@ -284,18 +286,20 @@ img.floatLeft {
     float:right;
     margin-top: 20px;
     background-color: #b0c4de;
-    height: 286px;
+    height: 267px;
     width:382px;	
     margin-left: 15px;
     padding-left:15px;
+    margin-right:20px;
 }
 
 .coaches {
     float: left;
     width:500px;
     height:500px;
-    margin-top:-35px;
+    margin-top: 5px;
     margin-bottom: 50px;
+    line-height: 2em;
 }
 
 li.item1 {
@@ -303,7 +307,6 @@ li.item1 {
     vertical-align: top;
     margin-left: 20px;
     padding-right: 60px;
-    margin-bottom:20px;
 }
 
 li.item2 {
@@ -340,8 +343,9 @@ ul.stats {
 }
 
 .rosterbg {
-    margin-top:50px;
-    height:700px;
-    width: 980px;
+    margin-top:-15px;
+    height:600px;
+    width: 990px;
+    background-image:url("http://th09.deviantart.net/fs44/PRE/f/2009/119/7/b/Grey_Gradient_by_malarcky.png");
 }
 
