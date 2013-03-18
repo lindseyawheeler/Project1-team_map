@@ -15,9 +15,23 @@ h2 {
 }
 
 
+h3 {
+    color: #b0c4de;
+    font-size: 26px;
+    font-family: Times New Roman, Georgia, serif;
+}
+
+h4 {
+    color:#ffffff;
+    font-size:14px;
+}
+
 h5 {
     font-style:bold;
-    font-size: 14px;
+    font-size: 24px;
+    padding-left: 5px;
+    color:#000000;
+    font-family: Times New Roman, Georgia, serif;
 }
 
 h6 {
@@ -28,7 +42,7 @@ h6 {
 .carousel {
     background-image: url("http://www.goheels.com/fls/3350/sport_bg/12965.jpg");
     background-size: 981px 361px;
-    width: 971px;
+    width: 960px;
     height: 361px;
     padding-left:10px;
     margin-left:-50px;
@@ -40,12 +54,6 @@ h6 {
     border-width:5px;
     padding-right:10px;
     padding-top:-15px;
-}
-
-h3 {
-    color: #b0c4de;
-    font-size: 26px;
-    font-family: times New Roman, Georgia, serif;
 }
 
 
@@ -78,7 +86,7 @@ h3 {
 
 
 .back {
-    background: #b0c4de;
+    background-image: url("http://fc06.deviantart.net/fs44/f/2009/119/7/b/Grey_Gradient_by_malarcky.png");
     border-color: #A8A8A8;
     border: ridge;
     border-width: 5px;
@@ -92,6 +100,16 @@ h3 {
 
 .logo {
     float:left;
+}
+
+.unc {
+    height: 50px;
+    width: 900px;
+    margin-left:150px;
+    background: #b0c4de;
+    margin-bottom:-50px;
+    margin-top:50px
+    padding: -50px;
 }
 
 .navbar {
@@ -247,26 +265,72 @@ img.floatLeft {
     color:#000000;
 }
 
-.teamphoto {
-    float: left;
-    width:500px;
-    height:500px;
-    margin-top:-30px;
-    padding-right: 3px;
-    display: inline-block; 
-}
 
 .top_content {
     float:right;
     background-image:url("http://2.bp.blogspot.com/_RVLfSMIB7K0/SdV-2K6eeaI/AAAAAAAAT9I/vt2pqerJ8XM/s400/001ramses.jpg");
     width: 385px;
     height:267px;
-    margin-top:20px;
+    margin-top:-10px;
     margin-right:0px;
     color:#ffffff;
     text-align: right;
     list-style-type: none;
     padding-right:15px;
+    margin-left:20px;
+}
+
+.bottom_content {
+    float:right;
+    margin-top: 20px;
+    background-color: #b0c4de;
+    height: 286px;
+    width:382px;	
+    margin-left: 15px;
+    padding-left:15px;
+}
+
+.coaches {
+    float: left;
+    width:500px;
+    height:500px;
+    margin-top:-35px;
+    margin-bottom: 50px;
+}
+
+li.item1 {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 20px;
+    padding-right: 60px;
+    margin-bottom:20px;
+}
+
+li.item2 {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 100px;
+    padding-right: 60px;
+}
+
+li.item3 {
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 150px;
+}
+
+li.item4 {
+   display: table-cell;
+    vertical-align: top;
+    padding-top: 20px;
+    float:left;
+}
+
+li.item5 {
+    display: table-cell;
+    vertical-align: top;
+    padding-top:20px;
+    padding-left: 125px;
 }
 
 ul.stats {
@@ -277,8 +341,7 @@ ul.stats {
 
 .rosterbg {
     margin-top:50px;
-    background-image:url("http://uncw.edu/transitions/orientation/images/frontpage.jpg");
-    width:1000px;
-    background-repeat: no-repeat;
+    height:700px;
+    width: 980px;
 }
 
