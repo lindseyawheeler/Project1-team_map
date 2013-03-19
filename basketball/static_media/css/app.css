@@ -74,6 +74,10 @@ h6 {
     border-width:3px;
 }
 
+p.font_bball {
+    color:#ffffff;
+}
+
 .schedule {
     float: left;
     margin-left:-38px;
@@ -101,11 +105,11 @@ h6 {
     border-color: #A8A8A8;
     border: ridge;
     border-width:5px;
-    height: 550px;
-    width: 900px;
+    height: 570px;
+    width: 940px;
     background-image: url("http://sportsfeedia.com/wp-content/uploads/unc-basketball.jpg");
-    margin-top:50px;
-    margin-left:60px;
+    margin-top:25px;
+    margin-left:30px;
 }
 
 
@@ -267,7 +271,11 @@ a:hover {
 }
 
 a:active {
-    color:#333333;
+    color:#b0c4de;
+}
+
+.bball_bg {
+    background-image: url ("http://www.cary-homes.com/Portals/138/UNC-Duke_tipoff.jpg");
 }
 
 img.floatLeft {
@@ -295,7 +303,7 @@ img.floatLeft {
     border-style: solid;
     border-width: 3px;
     border-color: #000033;
-    color:#000000;
+    font-color:#000000;
 }
 
 
