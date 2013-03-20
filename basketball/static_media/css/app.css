@@ -1,3 +1,8 @@
+
+/*-------------------------------------
+*Base template
+*-------------------------------------*/
+
 body{
     background-color:#16142B;
     margin:0px;
@@ -43,6 +48,93 @@ h6 {
     font-size:16px;
     margin-bottom:-10px;
 }
+
+/*------------------
+ *Nav content
+*-------------------*/
+
+.logo {
+    float:left;
+}
+
+.unc {
+    height: 70px;
+    width: 970px;
+    margin-left:150px;
+    background: #b0c4de;
+    margin-bottom:-50px;
+    margin-top:30px;
+    font-family: Times New Roman, Georgia, serif;
+    color:#000033;
+}
+
+.ticket_center {
+    float:right;
+    padding-right:40px;
+    margin-top:-70px;
+}
+
+.navbar {
+    margin-bottom: -25px;
+    margin-left:150px;
+    padding: 0;
+}
+
+.navbar-inner{
+   height: 30px;
+   width: 925px;
+   margin-top:50px;
+   border:solid;
+   border-width:3px;
+   border-height:30px;
+}
+
+.dropdown {
+    font-size:14px;
+    float:right;
+}
+
+a.dropdown-toggle:link{
+    font-size:16px;
+}
+
+a.brand:link {
+    color:#000000;
+    font-size:16px;
+}
+
+.nav-header {
+    color:#000033;
+    font-size: 14px;
+    font-family: Times New Roman, Georgia, Serif;
+}
+
+li.active {
+    background-color:#ffffff;
+}
+
+li.hover {
+    background-color:#000033;
+}
+
+li.dleft{
+    float:left;
+    background-color: #b0c4de;
+}
+
+li.divider {
+    float:right;
+    margin:-5px;
+    background-color: #b0c4de;
+}
+
+/*------------------
+ *End Nav Content
+*-------------------*/
+
+/*-------------------------------------
+*Home template
+*-------------------------------------*/
 
 .carousel {
     background-image: url("http://www.goheels.com/fls/3350/sport_bg/12965.jpg");
@@ -127,106 +219,6 @@ p.font_bball {
     
 }
 
-/*------------------
- *Nav content
-*-------------------*/
-
-.logo {
-    float:left;
-}
-
-.unc {
-    height: 70px;
-    width: 970px;
-    margin-left:150px;
-    background: #b0c4de;
-    margin-bottom:-50px;
-    margin-top:30px;
-    font-family: Times New Roman, Georgia, serif;
-    color:#000033;
-}
-
-.ticket_center {
-    float:right;
-    padding-right:40px;
-    margin-top:-70px;
-}
-
-.navbar {
-    margin-bottom: -25px;
-    margin-left:150px;
-    padding: 0;
-}
-
-.navbar-inner{
-   height: 30px;
-   width: 925px;
-   margin-top:50px;
-   border:solid;
-   border-width:3px;
-   border-height:30px;
-}
-
-.dropdown {
-    font-size:14px;
-    float:right;
-}
-
-.nav nav-tabs{
-    font-size:14px;
-    color:#000033;
-    text-align: left;
-}
-
-a.dropdown-toggle:link{
-    font-size:16px;
-}
-
-ul.dropdown-menu:link {
-    padding:2px;
-    float:left;
-    background-color: #b0c4de;    
-}
-
-ul.dropdown-menu:active {
-    color:#000033;
-    background-color: #b0c4de;
-}
-
-a.brand:link {
-    color:#000000;
-    font-size:16px;
-}
-
-.nav-header {
-    color:#000033;
-    font-size: 14px;
-    font-family: Times New Roman, Georgia, Serif;
-}
-
-li.active {
-    background-color:#ffffff;
-}
-
-li.hover {
-    background-color:#000033;
-}
-
-li.dleft{
-    float:left;
-    background-color: #b0c4de;
-}
-
-li.divider {
-    float:right;
-    margin:-5px;
-    background-color: #b0c4de;
-}
-
-/*------------------
- *End Nav Content
-*-------------------*/
-
 .floatPic{
     float:left;
     margin: 15px;
@@ -252,13 +244,15 @@ li.divider {
 }
 
 .contain-it {
-    height: 100px;
+    height: 720px;
     width:990px;
+    background-image:url("http://abcnewsradioonline.com/storage/news-images/GETTY_N_030411_BasketballOnCourt.jpg?__SQUARESPACE_CACHEVERSION=1299576338122");
 }
 
 table {
     border-collapse: collapse;
     margin-top:-5px;
+    background-color:#16142B;
 }
 
 
@@ -324,8 +318,8 @@ img.floatLeft {
 
 li.team_huddle {
     float:right;
-    margin-top:-395px;
-    margin-right:8px;
+    margin-top:-385px;
+    margin-right:2px;
     border-style:solid;
     border-width:3px;
     border-color:#000033;
@@ -334,7 +328,7 @@ li.team_huddle {
 li.vhighlight {
     float:right;
     margin-top:-230px;
-    margin-right:142px;
+    margin-right:125px;
 }
 
 .top_content {
