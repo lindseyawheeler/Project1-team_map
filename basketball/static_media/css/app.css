@@ -219,6 +219,11 @@ p.font_bball {
     
 }
 
+
+/*-------------------------------------
+*Team template
+*-------------------------------------*/
+
 .floatPic{
     float:left;
     margin: 15px;
@@ -246,6 +251,7 @@ p.font_bball {
 .contain-it {
     height: 720px;
     width:990px;
+    margin-left:8px;
     background-image:url("http://abcnewsradioonline.com/storage/news-images/GETTY_N_030411_BasketballOnCourt.jpg?__SQUARESPACE_CACHEVERSION=1299576338122");
 }
 
@@ -397,7 +403,7 @@ li.item3 {
 }
 
 li.item4 {
-   display: table-cell;
+    display: table-cell;
     vertical-align: top;
     padding-top: 20px;
     float:left;
@@ -417,9 +423,10 @@ ul.stats {
 }
 
 .rosterbg {
-    margin-top:-15px;
+    margin-top:-20px;
     height:600px;
     width: 990px;
+    margin-left:8px;
     background-image:url("http://th09.deviantart.net/fs44/PRE/f/2009/119/7/b/Grey_Gradient_by_malarcky.png");
 }
 
