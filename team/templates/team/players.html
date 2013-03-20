@@ -4,20 +4,23 @@
 
 {% block content %}
 <div class="bball">
-<h5 style="margin-bottom: 10px;"><font size="18px">#{{ players.number }}&nbsp;&nbsp;{{ players.name }}</h5></font>
+<h5 style="margin-bottom: 10px;">#{{ players.number }}&nbsp;&nbsp;{{ players.name }}</h5>
 
  <img src ="{{ players.img }}" class="floatLeft" width="266" height="400" padding-right="10">
    
 
 <ul>
 <div class="floatRight">
-    <li style="margin-bottom:3px;"><h5>Position:&nbsp;&nbsp;{{ players.position }}</h5></li>
-    <li style="margin-bottom:3px"><h5>Height:&nbsp;&nbsp;{{ players.height }}</h5></li>
-    <li style="margin-bottom:3px;"><h5>Weight:&nbsp;&nbsp;{{ players.weight }}</h5></li>
-    <li style="margin-bottom:3px;"><h5>Year:&nbsp;&nbsp;{{ players.year }}</h5></li>
-    <li style="margin-bottom:3px;"><h5>Hometown:&nbsp;&nbsp;{{ players.hometown }}</h5></li>
-    <li style="margin-bottom:3px;"><h5>High School:&nbsp;&nbsp;{{ players.school }}</h5></li>
-    <li style="margin-bottom:3px;">Bio:&nbsp;&nbsp;{{ players.bio }}</li>
+    <li style="margin-bottom:3px;"><h5><font size="4">Position:&nbsp;&nbsp;{{ players.position }}</h5></li></font>
+    <li style="margin-bottom:3px"><h5><font size="4">Height:&nbsp;&nbsp;{{ players.height }}</h5></li></font>
+    <li style="margin-bottom:3px;"><h5><font size="4">Weight:&nbsp;&nbsp;{{ players.weight }}</h5></li></font>
+    <li style="margin-bottom:3px;"><h5><font size="4">Year:&nbsp;&nbsp;{{ players.year }}</h5></li></font>
+    <li style="margin-bottom:3px;"><h5><font size="4">Hometown:&nbsp;&nbsp;{{ players.hometown }}</h5></li></font>
+    <li style="margin-bottom:3px;"><h5><font size="4">High School:&nbsp;&nbsp;{{ players.school }}</h5></li></font>
+    <li style="margin-bottom:3px;"><p><font color="#000000">Bio:&nbsp;&nbsp;{{ players.bio }}</li></p></font>
+    <li class="team_huddle">
+    <img src="http://cdn.bleacherreport.net/images_root/slides/photos/003/014/607/hi-res-6926400_crop_650x440.jpg?1362322263" width="230" height="150"></img></li>
+    <li class="vhighlight">Video Highlights</li>
 </ul>
 </div>
 </div>

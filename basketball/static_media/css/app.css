@@ -5,16 +5,16 @@ body{
   }
 
 h1 {
-    font-size: 26px;
+    font-size: 30px;
     color:#ffffff;
 }
 
 h2 {
-    color:#ffffff;
+    color:#000033;
     padding-left: 20px;
     font-family: Times New Roman, serif;
-    font-size: 26px;
-    margin-top: -30px;
+    font-size: 24px;
+    margin-top: -25px;
 }
 
 
@@ -32,7 +32,7 @@ h4 {
 
 h5 {
     font-style:bold;
-    font-size: 24px;
+    font-size: 25px;
     padding-left: 5px;
     color:#000000;
     font-family: Times New Roman, Georgia, serif;
@@ -63,6 +63,7 @@ h6 {
 
 
 .headlines {
+    height: 316px;
     padding:8px;
     margin-top: -5px;
     margin-right:10px;
@@ -121,10 +122,14 @@ p.font_bball {
     margin:0px;
     padding-left: 50px;
     width: 100%;
-    height: 800px;
+    height: 735px;
     margin-top:25px;
     
 }
+
+/*------------------
+ *Nav content
+*-------------------*/
 
 .logo {
     float:left;
@@ -144,7 +149,7 @@ p.font_bball {
 .ticket_center {
     float:right;
     padding-right:40px;
-    margin-top:-45px;
+    margin-top:-70px;
 }
 
 .navbar {
@@ -180,10 +185,12 @@ a.dropdown-toggle:link{
 ul.dropdown-menu:link {
     padding:2px;
     float:left;
+    background-color: #b0c4de;    
 }
 
 ul.dropdown-menu:active {
     color:#000033;
+    background-color: #b0c4de;
 }
 
 a.brand:link {
@@ -194,20 +201,30 @@ a.brand:link {
 .nav-header {
     color:#000033;
     font-size: 14px;
-    font-family: times new roman, georgia, serif;
+    font-family: Times New Roman, Georgia, Serif;
+}
+
+li.active {
+    background-color:#ffffff;
+}
+
+li.hover {
+    background-color:#000033;
 }
 
 li.dleft{
     float:left;
+    background-color: #b0c4de;
 }
 
 li.divider {
     float:right;
     margin:-5px;
+    background-color: #b0c4de;
 }
 
 /*------------------
- *Nav content
+ *End Nav Content
 *-------------------*/
 
 .floatPic{
@@ -234,11 +251,14 @@ li.divider {
     pading:10px;
 }
 
+.contain-it {
+    height: 100px;
+    width:990px;
+}
 
 table {
-    width:100%;
     border-collapse: collapse;
-    background-image: tar_heel.jpg;
+    margin-top:-5px;
 }
 
 
@@ -263,19 +283,15 @@ a:link {
 }
 
 a:visited {
-    color:#999999;
+    color:#5C8CBB;
 }
 
 a:hover {
-    color:#5C8CBB;
+    color:#b0c4de;
 }
 
 a:active {
     color:#b0c4de;
-}
-
-.bball_bg {
-    background-image: url ("http://www.cary-homes.com/Portals/138/UNC-Duke_tipoff.jpg");
 }
 
 img.floatLeft {
@@ -306,6 +322,20 @@ img.floatLeft {
     font-color:#000000;
 }
 
+li.team_huddle {
+    float:right;
+    margin-top:-395px;
+    margin-right:8px;
+    border-style:solid;
+    border-width:3px;
+    border-color:#000033;
+}
+
+li.vhighlight {
+    float:right;
+    margin-top:-230px;
+    margin-right:142px;
+}
 
 .top_content {
     float:right;
